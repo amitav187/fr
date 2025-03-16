@@ -1,0 +1,6 @@
+   document.getElementById("phn").value=e.phn;
+          const i=document.getElementById("u");
+          const o={"na":"","phq":""}
+          i.addEventListener("click",()=>{
+            event.preventDefault();
+            o.na=document.getElementById("name").value;
